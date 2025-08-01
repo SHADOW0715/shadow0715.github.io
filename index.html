@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ashif's Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <div class="logo">Ashif</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <button id="theme-toggle">🌙</button>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Hello, I'm <span>Ashif</span></h1>
+      <p>A Web Developer & Problem Solver</p>
+      <a href="#projects" class="btn">View Projects</a>
+    </div>
+  </section>
+
+  <section id="about" class="fade-in-section">
+    <h2>About Me</h2>
+    <p>
+      I am currently pursuing my BCA (3rd year). I enjoy building both web and mobile applications.
+      I'm passionate about learning and improving my skills in full-stack development.
+    </p>
+    <a href="cv.pdf" download class="btn">Download CV</a>
+  </section>
+
+  <section id="projects" class="fade-in-section">
+    <h2>Projects</h2>
+    <div class="projects-container">
+      <div class="card">
+        <h3>Portfolio Website</h3>
+        <p>Responsive portfolio using HTML, CSS, and JS.</p>
+        <a href="https://shadow0715.github.io/" target="_blank" class="btn">View Online</a>
+      </div>
+      <div class="card">
+        <h3>Quiz Game</h3>
+        <p>Fun quiz game with scoring system.</p>
+        <a href="https://shadow0715.github.io/quiz-app" target="_blank" class="btn">View Online</a>
+      </div>
+      <div class="card">
+        <h3>Weather App</h3>
+        <p>Weather info using OpenWeather API.</p>
+        <a href="https://shadow0715.github.io/weather-app" target="_blank" class="btn">View Online</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="fade-in-section contact-section">
+    <h2>Contact Me</h2>
+    <form id="contact-form">
+      <input type="text" placeholder="Name" required />
+      <input type="email" placeholder="Email" required />
+      <textarea placeholder="Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Mohammad Ashif</p>
+    <div class="socials">
+      <a href="https://github.com/SHADOW0715" target="_blank">🐱 GitHub</a>
+      <a href="https://linkedin.com/in/YOUR-LINKEDIN" target="_blank">🔗 LinkedIn</a>
+    </div>
+  </footer>
+</body>
+</html>
